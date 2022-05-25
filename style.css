@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  height: 100vh;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  background-color: grey
+}
+
+div {
+    font-size: 30px;
+    color: grey;
+    padding-top: 30px;
+    font-weight: bold;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  background-color: #2d3748;
+}
+
+.square1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.square2 {
+  position: absolute;
+  left: 100px;
+  top: 0;
+}
+.square3 {
+  position: absolute;
+  left: 200px;
+  top: 0;
+}
+
+.square4 {
+  position: absolute;
+  left: 300px;
+  top: 0;
+}
+.square5 {
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+
+.square6 {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+.square7 {
+  position: absolute;
+  left: 200px;
+  top: 100px;
+}
+
+.square8 {
+  position: absolute;
+  left: 300px;
+  top: 100px;
+}
+.square9 {
+  position: absolute;
+  left: 0;
+  top: 200px;
+}
+
+.square10 {
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+.square11 {
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+
+.square12 {
+  position: absolute;
+  left: 300px;
+  top: 200px;
+}
+.square13{
+  position: absolute;
+  left: 0;
+  top: 300px;
+}
+
+.square14{
+  position: absolute;
+  left: 100px;
+  top: 300px;
+}
+.square15 {
+  position: absolute;
+  left: 200px;
+  top: 300px;
+}
+
+.square16 {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+  background-color: transparent;
+}
